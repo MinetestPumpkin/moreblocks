@@ -9,11 +9,11 @@
 	stairsplus:register_all("moreblocks", "wood", "default:wood", {
 		description = "Wooden",
 		tiles = {"default_wood.png"},
-		groups = {oddly_breakabe_by_hand=1},
+		groups = {oddly_breakable_by_hand=1},
 		sounds = moreblocks.node_sound_wood_defaults(),
 	})
 	```
-The following register only a particular type of microblock.
+The following registers only a particular type of microblock.
 You will probably never want to use them directly:
 
 * `stairsplus:register_stair(modname, subname, recipeitem, fields)`
